@@ -10,5 +10,5 @@ RUN apt-get -y install python3-dev
 RUN apt-get -y install musl-dev
 RUN apt-get -y install unzip
 RUN apt-get -y install python3-pip
-RUN pip3 install pip setuptools
+RUN pip3 install setuptools
 CMD ["sleep 3000"]
